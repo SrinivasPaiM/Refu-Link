@@ -1,0 +1,24 @@
+# Web Framework
+Flask==3.0.0
+flask-cors==4.0.0
+gunicorn==21.2.0
+
+# Machine Learning and Data Processing
+torch==2.1.2
+transformers==4.36.2
+numpy==1.24.3
+scikit-learn==1.3.2
+
+# Model Dependencies
+sentencepiece==0.1.99
+tokenizers==0.15.0
+tqdm==4.66.1
+
+# Production Dependencies
+python-dotenv==1.0.0
+Werkzeug==3.0.1
+
+# Development Dependencies
+pytest==7.4.3
+black==23.12.1
+flake8==6.1.0
