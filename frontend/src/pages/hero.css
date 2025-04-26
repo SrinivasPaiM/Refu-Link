@@ -1,0 +1,142 @@
+/* Base Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0e1b39;
+    color: white;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #0a122a;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #3b82f6;
+  }
+  
+  .brand span {
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 0.95rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #3b82f6;
+  }
+  
+  .get-help-btn {
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    background: linear-gradient(180deg, #4a90e2 0%, #3366cc 100%);
+
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .get-help-btn:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero .icon {
+    font-size: 3rem;
+    color: #3b82f6;
+    margin-bottom: 16px;
+  }
+  
+  .hero h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+  }
+  
+  /* Buttons */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .primary-btn,
+  .secondary-btn {
+    font-size: 1rem;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+  }
+  
+  .primary-btn {
+    
+    background: linear-gradient(180deg, #4a90e2 0%, #3366cc 100%);
+
+    color: white;
+  }
+  
+  .primary-btn:hover {
+    background-color: #1e40af;
+  }
+  
+  .secondary-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #3b82f6;
+  }
+  
+  .secondary-btn:hover {
+    background-color: #1e3a8a;
+  }
+  
+  /* Footer */
+  .footer {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    font-size: 0.85rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: #ccc;
+  }
+  
+  .footer .lovable {
+    color: #f87171;
+  }

@@ -1,0 +1,97 @@
+{
+    "Maharashtra": {
+        "cities": ["Mumbai", "Pune", "Nagpur"],
+        "in_demand_jobs": ["Electrician", "Nurse"],
+        "excess_jobs": ["Teacher", "Accountant"]
+    },
+    "Karnataka": {
+        "cities": ["Bangalore", "Mysore", "Hubli"],
+        "in_demand_jobs": ["Software Developer", "Plumber"],
+        "excess_jobs": ["Driver", "Data Entry"]
+    },
+    "Tamil Nadu": {
+        "cities": ["Chennai", "Madurai", "Coimbatore"],
+        "in_demand_jobs": ["Mechanic", "Tailor"],
+        "excess_jobs": ["Cashier", "Watchman"]
+    },
+    "Uttar Pradesh": {
+        "cities": ["Lucknow", "Kanpur", "Varanasi"],
+        "in_demand_jobs": ["Farmer", "Construction Worker"],
+        "excess_jobs": ["Security Guard", "Salesman"]
+    },
+    "Punjab": {
+        "cities": ["Amritsar", "Ludhiana", "Jalandhar"],
+        "in_demand_jobs": ["Welder", "Carpenter"],
+        "excess_jobs": ["Teacher", "Electrician"]
+    },
+    "West Bengal": {
+        "cities": ["Kolkata", "Howrah", "Asansol"],
+        "in_demand_jobs": ["Healthcare Assistant", "Cook"],
+        "excess_jobs": ["Mechanic", "Tailor"]
+    },
+    "Rajasthan": {
+        "cities": ["Jaipur", "Jodhpur", "Udaipur"],
+        "in_demand_jobs": ["Construction Worker", "Painter"],
+        "excess_jobs": ["Clerk", "Call Center Agent"]
+    },
+    "Gujarat": {
+        "cities": ["Ahmedabad", "Surat", "Vadodara"],
+        "in_demand_jobs": ["Textile Worker", "Diamond Cutter"],
+        "excess_jobs": ["Accountant", "Sales Representative"]
+    },
+    "Madhya Pradesh": {
+        "cities": ["Bhopal", "Indore", "Gwalior"],
+        "in_demand_jobs": ["Factory Worker", "Agricultural Laborer"],
+        "excess_jobs": ["Office Assistant", "Receptionist"]
+    },
+    "Bihar": {
+        "cities": ["Patna", "Gaya", "Muzaffarpur"],
+        "in_demand_jobs": ["Agricultural Worker", "Mason"],
+        "excess_jobs": ["Data Entry Operator", "Bank Teller"]
+    },
+    "Andhra Pradesh": {
+        "cities": ["Visakhapatnam", "Vijayawada", "Guntur"],
+        "in_demand_jobs": ["IT Professional", "Ship Yard Worker"],
+        "excess_jobs": ["Teacher", "Store Manager"]
+    },
+    "Kerala": {
+        "cities": ["Thiruvananthapuram", "Kochi", "Kozhikode"],
+        "in_demand_jobs": ["Healthcare Worker", "Tourism Professional"],
+        "excess_jobs": ["Bank Officer", "Insurance Agent"]
+    },
+    "Odisha": {
+        "cities": ["Bhubaneswar", "Cuttack", "Rourkela"],
+        "in_demand_jobs": ["Mining Worker", "Steel Plant Worker"],
+        "excess_jobs": ["Computer Operator", "Retail Sales"]
+    },
+    "Assam": {
+        "cities": ["Guwahati", "Silchar", "Dibrugarh"],
+        "in_demand_jobs": ["Tea Garden Worker", "Oil Refinery Worker"],
+        "excess_jobs": ["Office Clerk", "Security Personnel"]
+    },
+    "Haryana": {
+        "cities": ["Gurugram", "Faridabad", "Panipat"],
+        "in_demand_jobs": ["Automotive Worker", "IT Professional"],
+        "excess_jobs": ["Delivery Executive", "Customer Service"]
+    },
+    "Jharkhand": {
+        "cities": ["Ranchi", "Jamshedpur", "Dhanbad"],
+        "in_demand_jobs": ["Mining Engineer", "Steel Worker"],
+        "excess_jobs": ["Accountant", "Shop Assistant"]
+    },
+    "Uttarakhand": {
+        "cities": ["Dehradun", "Haridwar", "Nainital"],
+        "in_demand_jobs": ["Tourism Guide", "Hospitality Worker"],
+        "excess_jobs": ["Teacher", "Bank Employee"]
+    },
+    "Himachal Pradesh": {
+        "cities": ["Shimla", "Manali", "Dharamshala"],
+        "in_demand_jobs": ["Hotel Staff", "Orchard Worker"],
+        "excess_jobs": ["Government Clerk", "Sales Executive"]
+    },
+    "Goa": {
+        "cities": ["Panaji", "Margao", "Vasco da Gama"],
+        "in_demand_jobs": ["Tourism Professional", "Hospitality Worker"],
+        "excess_jobs": ["Office Administrator", "Bank Clerk"]
+    }
+}

@@ -1,0 +1,108 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto; /* ⬅ Ensures scroll if needed */
+}
+
+/* Centering & Card Styling */
+.registration-page {
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem 1rem; /* was just 1rem before */
+}
+
+.registration-card {
+  background-color: rgba(30, 30, 46, 0.8);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.registration-logo {
+  width: 40px;
+  margin-bottom: 1rem;
+}
+
+.registration-heading {
+  font-size: 1.75rem;
+  color: #00bcd4;
+  margin-bottom: 0.25rem;
+}
+
+.registration-subheading {
+  font-size: 0.95rem;
+  color: #b0bec5;
+  margin-bottom: 1.75rem;
+}
+
+/* Form Layout */
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form-group {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #cfd8dc;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background-color: rgba(40, 40, 60, 0.6);
+  border: 1px solid #444;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #00bcd4;
+  box-shadow: 0 0 6px rgba(0, 188, 212, 0.4);
+}
+
+.registration-button {
+  background: linear-gradient(180deg, #4a90e2 0%, #3366cc 100%);
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registration-button:hover {
+  background-color: #0097a7;
+}

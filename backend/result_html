@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Results</title></head>
+<body>
+<h1>Results</h1>
+<p><strong>Top Match:</strong> {{ matched_job }} in {{ matched_state }} (Score: {{ score }})</p>
+<h2>Top Suggestions:</h2>
+<ul>
+{% for item in top_matches %}
+    <li>{{ item.job }} in {{ item.state }} (Score: {{ item.score }})</li>
+{% endfor %}
+</ul>
+
+<h2>Match Map</h2>
+<iframe src="{{ map_path }}" width="100%" height="500px" style="border:none;"></iframe>
+
+<a href="/">Try Again</a>
+</body>
+</html>
