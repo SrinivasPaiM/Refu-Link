@@ -8,6 +8,10 @@ Refu-Link is a web-based platform designed to connect refugees with essential se
 - **Backend**: Powered by Flask, integrating machine learning models using Transformers and PyTorch to provide personalized recommendations and insights.
 - **APIs**: RESTful APIs facilitate seamless communication between the frontend and backend.
 
+## Screanshots
+
+![Screenshot (52)](https://github.com/user-attachments/assets/b5ea0540-986a-4c19-bbc6-9c0373fbdfef)![Screenshot (53)](https://github.com/user-attachments/assets/faa35701-5a47-4549-b448-6441178475eb)
+
 ## 📂 Directory Structure
 
 ```
